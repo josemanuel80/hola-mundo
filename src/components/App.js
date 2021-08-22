@@ -5,6 +5,7 @@ function App() {
     <body>
       <div className="wrapper">
         <div className="mainText">
+          <br></br>
           <h1>
             <u>PORTAFOLIO</u>
           </h1>
