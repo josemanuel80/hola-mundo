@@ -5,7 +5,7 @@ const Header = () => {
     <header>
       <div className="Application">
         <div className="header">
-          <a id="logo-header" href="#Bio">
+          <a id="logo-header" href="/Bio">
             <span className="site-name">José Manuel Castellano González</span>
             <span className="site-desc">Desarrollador software Junior</span>
           </a>
