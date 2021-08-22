@@ -1,21 +1,22 @@
 import '../styles/Header.css';
-const Header = () => {
+export const Header = () => {
   return (
     <div className="Application">
       <div className="header">
-        <span className="site-name">José Manuel Castellano González</span>
-        <span className="site-desc">Desarrollador software Junior</span>
-
+        <a id="logo-header" href="#Bio">
+          <span className="site-name">José Manuel Castellano González</span>
+          <span className="site-desc">Desarrollador software Junior</span>
+        </a>
         <nav>
           <ul>
             <li>
-              <a href="http://josemanuelcastellano.com">Inicio</a>
+              <a href="/#">Inicio</a>
             </li>
             <li>
-              <a href="http://josemanuelcastellano.com/bio">Sobre mí</a>
+              <a href="/#bio">Sobre mí</a>
             </li>
             <li>
-              <a href="http://josemanuelcastellano.com/contact">Contacto</a>
+              <a href="/#contact">Contacto</a>
             </li>
           </ul>
         </nav>

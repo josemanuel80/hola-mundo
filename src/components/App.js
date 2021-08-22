@@ -23,8 +23,8 @@ function App() {
             <p />
             <br></br>
             <p>
-              Las tecnologías usadas son MongoDb para la base de datos, Express
-              y NodeJs para el servidor y React para la interfaz.
+              Las tecnologías usadas son React, MongoDb para la base de datos,
+              Express y NodeJs para el servidor.
             </p>
           </div>
         </div>
