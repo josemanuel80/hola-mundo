@@ -12,13 +12,15 @@ const Header = () => {
           <nav>
             <ul>
               <li>
-                <a href="/">Inicio</a>
+                <a href="http://josemanuelcastellano.com">Inicio</a>
               </li>
               <li>
-                <a href="/bio">Sobre mí</a>
+                <a href="https://hungry-ptolemy-e44d65.netlify.app">Sobre mí</a>
               </li>
               <li>
-                <a href="/contact">Contacto</a>
+                <a href="https://awesome-bhaskara-ac0440.netlify.app">
+                  Contacto
+                </a>
               </li>
             </ul>
           </nav>
