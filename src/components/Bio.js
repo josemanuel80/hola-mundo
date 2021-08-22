@@ -12,7 +12,7 @@ const Bio = () => {
       <p>
         {' '}
         Con todas las asignaturas de programación aprobadas en la carrera y
-        habiendo adquirido conocimientos en tecnologías como C, C++, Modula-2,
+        habiendo adquirido conocimientos en tecnologías como C, C++,
         programacion en ensamblador
       </p>
       <p>
