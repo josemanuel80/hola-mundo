@@ -13,6 +13,14 @@ function App() {
           </h1>
           <h2>José Manuel Castellano González</h2>
           <h2>Desarrollador software junior</h2>
+          <p>
+            <b>
+              Aplicación de un stack completo de desarrollo software en dos
+              aplicaciones.
+            </b>
+          </p>
+          <br></br>
+          <br></br>
         </div>
         <div className="text1">
           <div className="part1">
