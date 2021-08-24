@@ -1,7 +1,3 @@
-* {
-  font-family: cursive;
-}
-
 .wrapper {
   width: 100%;
   height: 70rem;
@@ -52,10 +48,6 @@
   margin-bottom: 20%;
 }
 @media screen and (max-width: 500px) {
-  * {
-    font-family: cursive;
-  }
-
   .wrapper {
     width: 100%;
     height: 70rem;
