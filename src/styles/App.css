@@ -1,7 +1,6 @@
 * {
   font-family: cursive;
 }
-
 .wrapper {
   width: 100%;
   height: 70rem;
@@ -31,6 +30,8 @@
   height: 163px;
   width: 200px;
 }
+.part2 {
+}
 
 .mainText2 {
   width: 100%;
@@ -50,4 +51,56 @@
   height: 141px;
   width: 200px;
   margin-bottom: 20%;
+}
+
+@media screen and (max-width: 320px) {
+  * {
+    font-family: cursive;
+  }
+  .wrapper {
+    width: 100%;
+    height: 70rem;
+    background-image: url('../assets/Fondo.jpg');
+    background-size: cover;
+    /*   display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+    bottom: 0;
+  }
+  .mainText {
+    width: 100%;
+    height: 14rem;
+    text-align: center;
+  }
+  .text1 {
+    align-items: center;
+    display: block;
+  }
+
+  .part1 {
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-top: 5rem;
+    margin-left: 10%;
+    height: 163px;
+    width: 200px;
+    margin-bottom: 2rem;
+  }
+  .part2 {
+  }
+
+  .text2 {
+    display: block;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .part3 {
+    border: 2px solid black;
+    background-image: url('../assets/playa2.png');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    margin-left: 10%;
+    height: 141px;
+    width: 200px;
+    margin-bottom: 20%;
+  }
 }

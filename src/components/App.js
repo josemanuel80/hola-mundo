@@ -37,7 +37,6 @@ function App() {
             <br></br>
           </div>
         </div>
-        <div className="mainText2"></div>
         <div className="text2">
           <div className="part3">
             <a href="https://sleepy-northcutt-f36bee.netlify.app">
