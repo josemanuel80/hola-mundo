@@ -8,7 +8,7 @@ function App() {
       <div className="wrapper">
         <div className="mainText">
           <br></br>
-          <h1>
+          <h1 className="h1">
             <u>PORTAFOLIO</u>
           </h1>
           <h2>José Manuel Castellano González</h2>
@@ -58,7 +58,7 @@ function App() {
             </a>
             <p />
             <br></br>
-            <p>
+            <p className="part5">
               Buscador de playas de España hecho en React y que consume una Api
               Rest pública. Introduzca el nombre de una ciudad costera para ver
               sus playas

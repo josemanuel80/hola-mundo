@@ -14,6 +14,7 @@
 }
 .text1 {
   display: grid;
+  margin-top: 2rem;
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -47,15 +48,19 @@
   width: 200px;
   margin-bottom: 20%;
 }
+.part5 {
+  margin-bottom: 3rem;
+}
 @media screen and (max-width: 500px) {
   .wrapper {
     width: 100%;
-    height: 70rem;
+    height: 80rem;
     background-image: url('../assets/Fondo.jpg');
     background-size: cover;
     /*   display: grid;
   grid-template-columns: repeat(2, 1fr); */
     bottom: 0;
+    text-align: center;
   }
   .mainText {
     width: 100%;
@@ -63,17 +68,18 @@
     text-align: center;
   }
   .text1 {
+    margin-top: 8rem;
     display: block;
     text-align: center;
   }
-
+  .h1 {
+    text-align: center;
+  }
   .part1 {
     text-align: center;
     border: 2px solid black;
     border-radius: 2px;
-    margin: 2rem;
-    margin-top: 2rem;
-    margin-left: 60px;
+    margin-bottom: 2rem;
     height: 163px;
     width: 200px;
   }
@@ -94,9 +100,10 @@
     background-image: url('../assets/playa2.png');
     background-repeat: no-repeat;
     background-attachment: local;
-    margin-left: 60px;
     height: 141px;
     width: 200px;
-    margin-bottom: 20%;
   }
+}
+.part5 {
+  margin-bottom: 3rem;
 }
