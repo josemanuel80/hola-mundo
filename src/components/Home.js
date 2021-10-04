@@ -50,8 +50,8 @@ const Home = () => {
         <div className="panel">
           <div class="portafolio">
             <h1>Portafolio</h1>
-            <h4>José Manuel Castellano Gonzalez</h4>
-            <h4>Desarrollador software Junior</h4>
+            <h2>José Manuel Castellano Gonzalez</h2>
+            <h2>Desarrollador software Junior</h2>
           </div>
           <div className="imagenes">
             <div className="cuadro">
