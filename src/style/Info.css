@@ -1,0 +1,17 @@
+.descripcion {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.wrapper {
+  display: inline;
+}
+.bio {
+  font-size: x-large;
+  line-height: 50px;
+  margin: 5rem;
+}
+.name {
+  font-weight: 700;
+}

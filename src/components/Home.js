@@ -1,6 +1,4 @@
 import { useHistory } from 'react-router-dom';
-import Contact from './Contact.js';
-import Info from './Info.js';
 import playa from '../assets/playa2.png';
 import home from '../assets/home.svg';
 import email from '../assets/email.svg';
@@ -15,9 +13,7 @@ const Home = () => {
   const info = () => {
     history.push('/Info');
   };
-  const inicio = () => {
-    history.push('/');
-  };
+
   const Contact = () => {
     history.push('/Contact');
   };
@@ -38,13 +34,7 @@ const Home = () => {
             <div className="nombre"></div>
           </div>
           <div className="centro">
-            <img
-              src={home}
-              alt="nada"
-              title="Inicio"
-              className="home"
-              onClick={inicio}
-            />
+            <img src={home} alt="nada" title="Inicio" className="home" />
           </div>
           <div className="derecha">
             <img
