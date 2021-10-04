@@ -7,6 +7,7 @@ import perfil from '../assets/Perfil.png';
 import snake from '../assets/Snake.png';
 import notas from '../assets/Notas.png';
 import '../style/Home.css';
+import '../style/normalize.css';
 
 const Home = () => {
   const history = useHistory();

@@ -89,3 +89,28 @@ h4 {
 .text {
   margin-left: 1rem;
 }
+@media screen and (max-width: 500px) {
+  .wrapper {
+    width: 100%;
+    height: 100vh;
+
+    display: block;
+  }
+  .imagenes {
+    width: 50rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    margin-left: -2rem;
+  }
+  .cuadro {
+    display: flex;
+    width: 20rem;
+    height: 20vh;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
