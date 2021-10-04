@@ -90,6 +90,30 @@ h4 {
   margin-left: 1rem;
 }
 @media screen and (max-width: 500px) {
+  .playa {
+    height: 12rem;
+    width: 10rem;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+  }
+  .snake {
+    width: 12rem;
+    height: 10rem;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+  }
+  .nota {
+    width: 12rem;
+    height: 10rem;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+  }
+  .crud {
+    width: 12rem;
+    height: 10rem;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+  }
   .wrapper {
     width: 100%;
     height: 100vh;
@@ -102,15 +126,16 @@ h4 {
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
-    margin-left: -2rem;
+    margin-left: -5rem;
   }
   .cuadro {
     display: flex;
-    width: 20rem;
+    width: 30rem;
     height: 20vh;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
     border: 2px solid lightgrey;
     border-radius: 10px;
     overflow: hidden;
+    margin-top: 2rem;
   }
 }
