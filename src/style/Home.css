@@ -36,7 +36,7 @@
   width: 40vw;
   height: 20vh;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-  border: 1px solid lightgrey;
+  border: 2px solid lightgrey;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -54,6 +54,7 @@
   height: 20vh;
   width: 15vw;
   border: 2px solid lightgrey;
+  border-radius: 10px;
 }
 .izquierda {
   display: flex;
@@ -62,23 +63,26 @@
   width: 15vw;
   height: 20vh;
   border: 2px solid lightgrey;
+  border-radius: 10px;
 }
 .nota {
   width: 15vw;
   height: 20vh;
   border: 2px solid lightgrey;
+  border-radius: 10px;
 }
 .crud {
   width: 15vw;
   height: 20vh;
   border: 2px solid lightgrey;
+  border-radius: 10px;
 }
 h4 {
-  line-height: 30px;
+  line-height: 20px;
   text-align: center;
 }
 .titulo {
-  font-size: x-large;
+  font-size: large;
   font-weight: 700;
   text-align: center;
 }

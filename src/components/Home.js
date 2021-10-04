@@ -66,10 +66,9 @@ const Home = () => {
               </div>
               <div className="text">
                 <p className="titulo">Buscador de playas</p>
-                <h4>
-                  Introduzca el nombre de cualquier ciudad de España y si tiene
-                  playa se mostrará con algunos detalles.
-                </h4>
+                <p>
+                  Busque por el nombre de cualquier ciudad costera de España.
+                </p>
               </div>
             </div>
             <div className="cuadro">
@@ -80,10 +79,7 @@ const Home = () => {
               </div>
               <div className="text">
                 <p className="titulo">Aplicación CRUD</p>
-                <h4>
-                  Create,Read,Update,Delete.<br></br> Guarda un registro de
-                  nombre y edad.
-                </h4>
+                <p>Create,Read,Update,Delete.</p>
               </div>
             </div>
             <div className="cuadro">
@@ -94,10 +90,7 @@ const Home = () => {
               </div>
               <div className="text">
                 <p className="titulo">Block de notas</p>
-                <h4>
-                  Guarda en una base de datos las notas. Las puedes ver y editar
-                  en cualquier momento.
-                </h4>
+                <p>Guarda en una base de datos las notas.</p>
               </div>
             </div>
             <div className="cuadro">
@@ -115,7 +108,7 @@ const Home = () => {
               <div className="text">
                 <p className="titulo"> Snake </p>
 
-                <h4>Clásico juego de la serpiente en vanilla Javascript.</h4>
+                <p>Clásico juego de la serpiente en vanilla Javascript.</p>
               </div>
             </div>
           </div>
