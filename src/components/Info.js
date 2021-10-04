@@ -1,23 +1,17 @@
 import { useHistory } from 'react-router-dom';
-//import Contact from './Contact.js';
-import Info from './Info.js';
-import playa from '../assets/playa2.png';
+
 import home from '../assets/home.svg';
 import email from '../assets/email.svg';
-import crud from '../assets/CRUD2.png';
 import perfil from '../assets/Perfil.png';
 import '../style/Home.css';
-const Contact = () => {
-  const Home = () => {};
+
+const Info = () => {
   const history = useHistory();
-  const info = () => {
-    history.push('/Info');
-  };
   const inicio = () => {
     history.push('/');
   };
-  const mail = () => {
-    history.push('/contact');
+  const Contact = () => {
+    history.push('/Contact');
   };
   return (
     <div className="header">
@@ -26,7 +20,7 @@ const Contact = () => {
           <img
             className="perfil"
             src={perfil}
-            onClick={info}
+            onClick={Info}
             alt="nada"
             title="José Manuel"
           />
@@ -48,10 +42,10 @@ const Contact = () => {
           alt="nada"
           title="Contacto"
           className="mail"
-          onClick={mail}
+          onClick={Contact}
         />
       </div>
     </div>
   );
 };
-export default Contact;
+export default Info;
