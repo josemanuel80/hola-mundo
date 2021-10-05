@@ -69,6 +69,7 @@ const Home = () => {
                 <p className="titulo">Buscador de playas</p>
                 <p>
                   Busque por el nombre de cualquier ciudad costera de España.
+                  (React)
                 </p>
               </div>
             </div>
@@ -81,6 +82,7 @@ const Home = () => {
               <div className="text">
                 <p className="titulo">Aplicación CRUD</p>
                 <p>Create,Read,Update,Delete.</p>
+                (React,Mongo,Express,Node)
               </div>
             </div>
             <div className="cuadro">
@@ -92,6 +94,7 @@ const Home = () => {
               <div className="text">
                 <p className="titulo">Block de notas</p>
                 <p>Guarda en una base de datos las notas.</p>
+                (React,Mongo,Express,Node)
               </div>
             </div>
             <div className="cuadro">
@@ -109,7 +112,7 @@ const Home = () => {
               <div className="text">
                 <p className="titulo"> Snake </p>
 
-                <p>Clásico juego de la serpiente en vanilla Javascript.</p>
+                <p>Clásico juego de la serpiente (vanilla Javascript).</p>
               </div>
             </div>
           </div>
