@@ -1,9 +1,8 @@
 import { useHistory } from 'react-router-dom';
 import playa from '../assets/Playas.png';
-import home from '../assets/home.svg';
-import email from '../assets/email.svg';
+
 import crud from '../assets/CRUD2.png';
-import perfil from '../assets/Perfil.png';
+
 import snake from '../assets/Snake.png';
 import Restaurante from '../assets/Restaurante.png';
 import '../style/Home.css';
@@ -34,7 +33,7 @@ const Home = () => {
   return (
     <div className="App">
       <div className="wrapper">
-        <div className="header">
+        {/* <div className="header">
           <div className="izquierda">
             <div className="imagen">
               <img
@@ -59,7 +58,7 @@ const Home = () => {
               onClick={Contact}
             />
           </div>
-        </div>
+        </div> */}
         <div className="panel">
           <div class="portafolio">
             <h1>Portafolio</h1>
