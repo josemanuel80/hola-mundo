@@ -92,7 +92,7 @@ const Home = () => {
                 <Card>
                   <CardImg alt="Card image cap" src={crud} top width="100%" />
                   <CardBody>
-                    <CardTitle tag="h5">C.R.U.D.</CardTitle>
+                    <CardTitle tag="h3">C.R.U.D.</CardTitle>
                     <CardSubtitle className="mb-2 text-muted" tag="h6">
                       React, Node, Express, MongoDb
                     </CardSubtitle>
@@ -117,7 +117,7 @@ const Home = () => {
                     width="100%"
                   />
                   <CardBody>
-                    <CardTitle tag="h5">Web restaurante</CardTitle>
+                    <CardTitle tag="h3">Web restaurante</CardTitle>
                     <CardSubtitle className="mb-2 text-muted" tag="h6">
                       HTML, CSS, Javascript, Bootstrap.
                     </CardSubtitle>
@@ -135,7 +135,7 @@ const Home = () => {
                 <Card>
                   <CardImg alt="Card image cap" src={snake} top width="100%" />
                   <CardBody>
-                    <CardTitle tag="h5">Snake</CardTitle>
+                    <CardTitle tag="h3">Snake</CardTitle>
                     <CardSubtitle className="mb-2 text-muted" tag="h6">
                       Vanilla Javascript
                     </CardSubtitle>
