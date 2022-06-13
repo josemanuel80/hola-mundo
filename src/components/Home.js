@@ -22,14 +22,14 @@ import {
 } from 'reactstrap';
 
 const Home = () => {
-  const history = useHistory();
+  /*   const history = useHistory();
   const info = () => {
     history.push('/Info');
   };
 
   const Contact = () => {
     history.push('/Contact');
-  };
+  }; */
   return (
     <div className="App">
       <div className="wrapper">
@@ -63,7 +63,7 @@ const Home = () => {
           <div class="portafolio">
             <h1>Portafolio</h1>
             <h2>José Manuel Castellano Gonzalez</h2>
-            <h2>Desarrollador software Junior</h2>
+            <h2>Desarrollador web Junior</h2>
           </div>
 
           {/* reactstrap */}
