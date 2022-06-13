@@ -1,4 +1,3 @@
-import { useHistory } from 'react-router-dom';
 import playa from '../assets/Playas.png';
 
 import crud from '../assets/CRUD2.png';
