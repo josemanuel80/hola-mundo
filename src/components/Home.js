@@ -73,7 +73,7 @@ const Home = () => {
                 <Card>
                   <CardImg alt="Card image cap" src={playa} top width="100%" />
                   <CardBody>
-                    <CardTitle tag="h5">Buscador de playas</CardTitle>
+                    <CardTitle tag="h3">Buscador de playas</CardTitle>
                     <CardSubtitle className="mb-2 text-muted" tag="h6">
                       React
                     </CardSubtitle>
